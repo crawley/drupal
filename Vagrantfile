@@ -130,5 +130,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         "foo" => "bar"
       }
     }
+    chef.log_level = "debug"
   end
 end
