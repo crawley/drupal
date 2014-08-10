@@ -1,3 +1,12 @@
+node.default["vm"]["ip"] = "192.168.44.44"
+node.default["vm"]["memory"] = "1024"
+node.default["vm"]["synced_folders"] = [
+                                        { "host_path" => "data/",
+                                          "guest_path" => "/var/www",
+                                          "type" => "default" 
+                                        } ] 
+node.default["vm"]["forwarded_ports"] = []
+
 node.default["vdd"]["sites"]["drupal7"]["account_name"] = "root"
 node.default["vdd"]["sites"]["drupal7"]["account_pass"] = "root"
 node.default["vdd"]["sites"]["drupal7"]["account_mail"] = "box@example.com"
