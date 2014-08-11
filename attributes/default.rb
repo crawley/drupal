@@ -10,7 +10,7 @@ node.default["vm"]["forwarded_ports"] = []
 node.default["drupal"]["sites"] = {}
 
 node.default["vdd"]["sites"] = {
-  "drupal7" : { 
+  "drupal7" => { 
     "account_name" => "root",
     "account_pass" => "root",
     "account_mail" => "box@example.com",
@@ -22,7 +22,7 @@ node.default["vdd"]["sites"] = {
       "alias" => "www.drupal7.dev"
     }
   },
-  "drupal8" : { 
+  "drupal8" => { 
     "account_name" => "root",
     "account_pass" => "root",
     "account_mail" => "box@example.com",
