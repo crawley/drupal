@@ -1,4 +1,4 @@
-node.default["vm"]["ip"] = "192.168.44.44"
+node.default["vm"]["ip"] = nil
 node.default["vm"]["memory"] = "1024"
 node.default["vm"]["synced_folders"] = [
                                         { "host_path" => "data/",
